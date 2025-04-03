@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter";
+}
+
+img{
+width: 50px;
+border-radius: 25px;
+margin-bottom: 20px;
+}
+
+
+h3{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.main-div{
+    width: 350px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+
+.social-links a {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.social-links a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.social-links button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Inter";
+}
+.social-links button:hover {
+    background-color: hsl(0, 0%, 30%);
+}
